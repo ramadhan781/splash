@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.splash.lukman.splash.splash">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/Welcome"
+            android:textSize="30dp"
+            android:id="@+id/wc"
+            android:text="Welcome To"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTI Comunity"
+            android:id="@+id/uti"
+            android:layout_marginTop="225dp"
+            android:gravity="center"
+            android:layout_below="@+id/wc"
+            android:textColor="@color/UTI"
+            android:textSize="45dp"/>
+</FrameLayout>
